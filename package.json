@@ -1,0 +1,39 @@
+{
+  "name": "abarrotes-meli",
+  "version": "0.0.1",
+  "description": "this one projecto to one groceries store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "docs": "jsdoc -c jsdoc.json",
+    "deploy": "gh-pages -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenay19/Abarrotes-Meli.git"
+  },
+  "keywords": [
+    "groceries",
+    "store"
+  ],
+  "author": "kenay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenay19/Abarrotes-Meli/issues"
+  },
+  "homepage": "https://github.com/kenay19/Abarrotes-Meli#readme",
+  "devDependencies": {
+    "gh-pages": "3.2.3",
+    "nodemon": "2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "clean-jsdoc-theme": "3.3.4",
+    "express": "4.17.3",
+    "express-handlebars": "6.0.4",
+    "express-session": "1.17.2",
+    "morgan": "1.10.0",
+    "mysql": "2.18.1"
+  }
+}

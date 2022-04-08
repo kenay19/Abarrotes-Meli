@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS Abarrotes;
+CREATE DATABASE IF NOT EXISTS Abarrotes;
+USE Abarrotes
+
